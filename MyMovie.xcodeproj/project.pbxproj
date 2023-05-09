@@ -16,6 +16,8 @@
 		FBB451022A0AB4200071CDE4 /* MyMovieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB451012A0AB4200071CDE4 /* MyMovieTests.swift */; };
 		FBB4510C2A0AB4200071CDE4 /* MyMovieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB4510B2A0AB4200071CDE4 /* MyMovieUITests.swift */; };
 		FBB4510E2A0AB4200071CDE4 /* MyMovieUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB4510D2A0AB4200071CDE4 /* MyMovieUITestsLaunchTests.swift */; };
+		FBB4511C2A0AB49C0071CDE4 /* ButtonAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB4511B2A0AB49C0071CDE4 /* ButtonAnimations.swift */; };
+		FBB4511E2A0AB4B90071CDE4 /* UIViewAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB4511D2A0AB4B90071CDE4 /* UIViewAnimations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		FBB451072A0AB4200071CDE4 /* MyMovieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyMovieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBB4510B2A0AB4200071CDE4 /* MyMovieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMovieUITests.swift; sourceTree = "<group>"; };
 		FBB4510D2A0AB4200071CDE4 /* MyMovieUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMovieUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FBB4511B2A0AB49C0071CDE4 /* ButtonAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAnimations.swift; sourceTree = "<group>"; };
+		FBB4511D2A0AB4B90071CDE4 /* UIViewAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewAnimations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		FBB450E92A0AB41F0071CDE4 /* MyMovie */ = {
 			isa = PBXGroup;
 			children = (
+				FBB4511A2A0AB43F0071CDE4 /* Animations */,
 				FBB450EA2A0AB41F0071CDE4 /* AppDelegate.swift */,
 				FBB450EC2A0AB41F0071CDE4 /* SceneDelegate.swift */,
 				FBB450EE2A0AB41F0071CDE4 /* ViewController.swift */,
@@ -125,6 +130,15 @@
 				FBB4510D2A0AB4200071CDE4 /* MyMovieUITestsLaunchTests.swift */,
 			);
 			path = MyMovieUITests;
+			sourceTree = "<group>";
+		};
+		FBB4511A2A0AB43F0071CDE4 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				FBB4511B2A0AB49C0071CDE4 /* ButtonAnimations.swift */,
+				FBB4511D2A0AB4B90071CDE4 /* UIViewAnimations.swift */,
+			);
+			path = Animations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +272,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBB4511C2A0AB49C0071CDE4 /* ButtonAnimations.swift in Sources */,
 				FBB450EF2A0AB41F0071CDE4 /* ViewController.swift in Sources */,
+				FBB4511E2A0AB4B90071CDE4 /* UIViewAnimations.swift in Sources */,
 				FBB450EB2A0AB41F0071CDE4 /* AppDelegate.swift in Sources */,
 				FBB450ED2A0AB41F0071CDE4 /* SceneDelegate.swift in Sources */,
 			);
