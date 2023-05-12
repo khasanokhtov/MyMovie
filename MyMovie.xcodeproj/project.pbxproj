@@ -18,6 +18,11 @@
 		FBB4510E2A0AB4200071CDE4 /* MyMovieUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB4510D2A0AB4200071CDE4 /* MyMovieUITestsLaunchTests.swift */; };
 		FBB4511C2A0AB49C0071CDE4 /* ButtonAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB4511B2A0AB49C0071CDE4 /* ButtonAnimations.swift */; };
 		FBB4511E2A0AB4B90071CDE4 /* UIViewAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB4511D2A0AB4B90071CDE4 /* UIViewAnimations.swift */; };
+		FBB451242A0EA6CC0071CDE4 /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB451232A0EA6CC0071CDE4 /* ViewExtensions.swift */; };
+		FBB451262A0EA6E70071CDE4 /* FoundationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB451252A0EA6E70071CDE4 /* FoundationExtensions.swift */; };
+		FBB451282A0EA7020071CDE4 /* CellExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB451272A0EA7020071CDE4 /* CellExtensions.swift */; };
+		FBB4512A2A0EA7170071CDE4 /* CoreGraphicsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB451292A0EA7170071CDE4 /* CoreGraphicsExtension.swift */; };
+		FBB4512D2A0EA7460071CDE4 /* ShimmerEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB4512C2A0EA7460071CDE4 /* ShimmerEffect.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,11 @@
 		FBB4510D2A0AB4200071CDE4 /* MyMovieUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMovieUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FBB4511B2A0AB49C0071CDE4 /* ButtonAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAnimations.swift; sourceTree = "<group>"; };
 		FBB4511D2A0AB4B90071CDE4 /* UIViewAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewAnimations.swift; sourceTree = "<group>"; };
+		FBB451232A0EA6CC0071CDE4 /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
+		FBB451252A0EA6E70071CDE4 /* FoundationExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundationExtensions.swift; sourceTree = "<group>"; };
+		FBB451272A0EA7020071CDE4 /* CellExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellExtensions.swift; sourceTree = "<group>"; };
+		FBB451292A0EA7170071CDE4 /* CoreGraphicsExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreGraphicsExtension.swift; sourceTree = "<group>"; };
+		FBB4512C2A0EA7460071CDE4 /* ShimmerEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerEffect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +113,8 @@
 		FBB450E92A0AB41F0071CDE4 /* MyMovie */ = {
 			isa = PBXGroup;
 			children = (
+				FBB4512B2A0EA7300071CDE4 /* Effects&Layers */,
+				FBB451222A0EA6BD0071CDE4 /* Extensions */,
 				FBB4511A2A0AB43F0071CDE4 /* Animations */,
 				FBB450EA2A0AB41F0071CDE4 /* AppDelegate.swift */,
 				FBB450EC2A0AB41F0071CDE4 /* SceneDelegate.swift */,
@@ -139,6 +151,25 @@
 				FBB4511D2A0AB4B90071CDE4 /* UIViewAnimations.swift */,
 			);
 			path = Animations;
+			sourceTree = "<group>";
+		};
+		FBB451222A0EA6BD0071CDE4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FBB451232A0EA6CC0071CDE4 /* ViewExtensions.swift */,
+				FBB451252A0EA6E70071CDE4 /* FoundationExtensions.swift */,
+				FBB451272A0EA7020071CDE4 /* CellExtensions.swift */,
+				FBB451292A0EA7170071CDE4 /* CoreGraphicsExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FBB4512B2A0EA7300071CDE4 /* Effects&Layers */ = {
+			isa = PBXGroup;
+			children = (
+				FBB4512C2A0EA7460071CDE4 /* ShimmerEffect.swift */,
+			);
+			path = "Effects&Layers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,11 +303,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBB451262A0EA6E70071CDE4 /* FoundationExtensions.swift in Sources */,
 				FBB4511C2A0AB49C0071CDE4 /* ButtonAnimations.swift in Sources */,
 				FBB450EF2A0AB41F0071CDE4 /* ViewController.swift in Sources */,
 				FBB4511E2A0AB4B90071CDE4 /* UIViewAnimations.swift in Sources */,
+				FBB4512D2A0EA7460071CDE4 /* ShimmerEffect.swift in Sources */,
 				FBB450EB2A0AB41F0071CDE4 /* AppDelegate.swift in Sources */,
+				FBB451242A0EA6CC0071CDE4 /* ViewExtensions.swift in Sources */,
+				FBB4512A2A0EA7170071CDE4 /* CoreGraphicsExtension.swift in Sources */,
 				FBB450ED2A0AB41F0071CDE4 /* SceneDelegate.swift in Sources */,
+				FBB451282A0EA7020071CDE4 /* CellExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
